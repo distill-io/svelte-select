@@ -46,6 +46,7 @@
   .item.active {
     background: var(--itemIsActiveBG, #007aff);
     color: var(--itemIsActiveColor, #fff);
+    font-weight: 500;
   }
 
   .item.first {
@@ -54,6 +55,7 @@
 
   .item.hover:not(.active) {
     background: var(--itemHoverBG, #e7f2ff);
+    color: #fff
   }
 </style>
 
